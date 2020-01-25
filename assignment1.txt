@@ -1,0 +1,40 @@
+Syl218
+11242773
+CMPT280
+
+Question 1
+	a.)O(n^4log_280 n)
+	b.)O(n^2 log(n^2))
+	c.)O(29log_2 n)
+	
+Question 2
+	1.)False
+	2.)False
+	3.)True
+	4.)True
+
+Question 3
+	a.)O(n^2)
+	b.)O(2^n)*O(n^2)
+	c.)O(n^3)
+	d.)O(n^2log_2(n^2))
+
+Question 4
+	a.)
+The first for-loop will run n times. THe inner for loop runs 2 statements (including the conditional in the forloop) so it runs 2n times,
+Therefor, because the inner loop runs another n times by the first for-loop it will be 2n^2. the total statements will be 2n^2 + n
+	b.) Θ(n^2)
+
+Question 5
+	a.) First line is run once, the first for-loop runs n times and the second inner for-loop runs the condition + the 
+print statement (n(n+1)/2) times (summation).
+1 + n + (2(n(n+1)/2)) 
+	b.) Θ(n^2)
+
+Question 6
+The second for-loop is our active operation. it runs n^2 times. Θ(n^2)
+
+Question 7
+Our active operation will be the while loop as nothing else runs repetitively as much as the while loop. Why? The first line of pseudocode
+data.gofist() is usuallly O(1) as inserting at the first index doesn't need any iterating over of the array. Found = False is
+also O(1) as it is just setting the value. 
